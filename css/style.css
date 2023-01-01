@@ -375,7 +375,7 @@ margin-top: 100px;
     }
 }
 .about .about-content .image img{
-    max-width: 100%;
+    max-width: 90%;
 }
 .about .about-content .text{
     flex-basis: calc(100% - 600px);
