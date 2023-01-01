@@ -8,6 +8,10 @@
 }
 
 /* Star of global rules */
+::selection{
+    background-color: var(--main-color);
+    color: #FFF;
+}
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -15,9 +19,13 @@
 }
 html{
     scroll-behavior: smooth;
+    
 }
 body{
     font-family: 'Work Sans', sans-serif;
+}
+p {
+    text-align: justify;
 }
 .parent{
     background-color: #eee;
@@ -71,6 +79,10 @@ body{
 /* Start of header */
 .header{
     padding: 20px;
+}
+.header::selection{
+    background-color: var(--main-color);
+    color: #fff;
 }
 .header .container{
     /* background-color: aqua; */
@@ -280,6 +292,8 @@ margin-top: 100px;
 }
 
 .portfolio .portfolio-content .card{
+    /* border-radius: 5px; */
+    margin-top: 30px;
     background-color: #FFF;
     
 }
