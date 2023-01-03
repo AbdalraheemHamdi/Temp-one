@@ -167,6 +167,11 @@ p {
     height: calc((100vh - 64px));
     position: relative;
 }
+@media (max-width:797px){
+    .landing{
+        height: 100vh;
+    }
+}
 .landing .intro-text{
     position: absolute;
     top: 50%;
@@ -375,7 +380,7 @@ margin-top: 100px;
     }
 }
 .about .about-content .image img{
-    max-width: 90%;
+    max-width: 100%;
 }
 .about .about-content .text{
     flex-basis: calc(100% - 600px);
