@@ -170,7 +170,7 @@ p {
 @media (max-width:797px){
     .landing{
         height: 100vh;
-        background-image: url(..//Images/Landing-backgrounds/mountain3.jpg);
+        background-attachment: scroll;
 
     }
 }
